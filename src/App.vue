@@ -5,6 +5,7 @@
     <ButtonCounter customMessage="Hi!"></ButtonCounter>
     <ButtonCounter customMessage="Hello!"></ButtonCounter>
     <MyComponent greeting="Hello"/>
+    <TextReverser></TextReverser>
     
     <HelloWorld msg="Welcome to Your Vue.js App"/>
     
@@ -16,6 +17,7 @@ import HelloWorld from "./components/HelloWorld.vue";
 import MyComponent from "./components/MyComponent.vue";
 import ButtonCounter from "./components/ButtonCounter.vue";
 import ListViewer from "./components/ListViewer.vue";
+import TextReverser from "./components/TextReverser.vue";
 
 export default {
   name: "app",
@@ -23,7 +25,8 @@ export default {
     HelloWorld,
     MyComponent,
     ButtonCounter,
-    ListViewer
+    ListViewer,
+    TextReverser
   }
 };
 </script>
