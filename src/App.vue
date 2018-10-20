@@ -6,6 +6,7 @@
     <ButtonCounter customMessage="Hello!"></ButtonCounter>
     <MyComponent greeting="Hello"/>
     <TextReverser></TextReverser>
+    <checkbox-example></checkbox-example>
     
     <HelloWorld msg="Welcome to Your Vue.js App"/>
     
@@ -18,6 +19,7 @@ import MyComponent from "./components/MyComponent.vue";
 import ButtonCounter from "./components/ButtonCounter.vue";
 import ListViewer from "./components/ListViewer.vue";
 import TextReverser from "./components/TextReverser.vue";
+import CheckboxExample from "./components/CheckboxExample.vue";
 
 export default {
   name: "app",
@@ -26,7 +28,8 @@ export default {
     MyComponent,
     ButtonCounter,
     ListViewer,
-    TextReverser
+    TextReverser,
+    CheckboxExample
   }
 };
 </script>
