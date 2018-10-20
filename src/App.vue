@@ -1,24 +1,36 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
+    <ListViewer></ListViewer>
+    <ButtonCounter customMessage="Hi!"></ButtonCounter>
+    <ButtonCounter customMessage="Hello!"></ButtonCounter>
+    <MyComponent greeting="Hello"/>
+    
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+    
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from "./components/HelloWorld.vue";
+import MyComponent from "./components/MyComponent.vue";
+import ButtonCounter from "./components/ButtonCounter.vue";
+import ListViewer from "./components/ListViewer.vue";
 
 export default {
-  name: 'app',
+  name: "app",
   components: {
-    HelloWorld
+    HelloWorld,
+    MyComponent,
+    ButtonCounter,
+    ListViewer
   }
-}
+};
 </script>
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
