@@ -8,7 +8,7 @@
 
 <script>
 export default {
-  name: "TextReverser",
+  name: "text-reverser",
   data: () => ({
     text: "Default text"
   }),

@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: "ButtonCounter",
+  name: "button-counter",
   props: {
     customMessage: String
   },

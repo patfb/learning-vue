@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: "MyComponent",
+  name: "my-cpmponent",
   props: {
     greeting: String
   }
